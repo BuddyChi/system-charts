@@ -7,7 +7,7 @@ clusterDomain: cluster.local
 image:
   repository: registry.cn-hangzhou.aliyuncs.com/link-cloud/minio
   tag: cm
-  pullPolicy: IfNotPresent
+  pullPolicy: Always
 
 ## Set default image, imageTag, and imagePullPolicy for the `mc` (the minio
 ## client used to create a default bucket).
